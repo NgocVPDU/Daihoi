@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đại hội XVII - Đảng bộ Công ty CP Nước sạch Quảng Ninh</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #e6f4ff;
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #CC0000;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            padding: 15px 0;
+            border-bottom: 3px solid #FFD700;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .card-header {
+            background: #CC0000;
+            padding: 15px;
+            color: white;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .icon {
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .download-btn {
+            display: flex;
+            align-items: center;
+            background: #CC0000;
+            color: white;
+            padding: 12px 15px;
+            margin: 8px 0;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #B20000;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 300px;
+            margin: 15px 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            color: #666;
+            padding: 20px 0;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.4rem;
+            }
+            
+            .card {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Đại hội đại biểu Đảng bộ<br>
+            Công ty cổ phần Nước sạch Quảng Ninh<br>
+            Lần thứ XVII, nhiệm kỳ 2025-2030
+        </h1>
+
+        <!-- Thời gian & Địa điểm -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Thời gian và Địa điểm</div>
+                <div>Thông tin chi tiết về đại hội</div>
+            </div>
+            <div class="card-content">
+                <div class="info-item">
+                    📅 Thứ Sáu, ngày 09 tháng 5 năm 2025<br>
+                    ⏰ 6:45 AM - 4:30 PM
+                </div>
+                <div class="info-item">
+                    📍 Hội trường tầng 6, Trụ sở Văn phòng Công ty<br>
+                    📍 Số 449, Đường Nguyễn Văn Cừ, Hạ Long, Quảng Ninh
+                </div>
+            </div>
+        </div>
+
+        <!-- Tài liệu Đại hội -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Tài liệu Đại hội</div>
+                <div>Tải xuống các tài liệu quan trọng</div>
+            </div>
+            <div class="card-content">
+                <a href="[LINK_BAO_CAO_CHINH_TRI]" class="download-btn">
+                    📄 Báo cáo chính trị
+                </a>
+                <a href="[LINK_BAO_CAO_KIEM_DIEM]" class="download-btn">
+                    📑 Báo cáo kiểm điểm BCH khóa XVI
+                </a>
+                <a href="[LINK_DE_AN_BCH]" class="download-btn">
+                    📋 Đề án nhân sự BCH khóa XVII
+                </a>
+                <a href="[LINK_DE_AN_DOAN]" class="download-btn">
+                    📝 ĐA nhân sự Đoàn đại biểu
+                </a>
+                <a href="[LINK_DU_THAO]" class="download-btn">
+                    📜 Dự thảo Nghị quyết Đại hội
+                </a>
+            </div>
+        </div>
+
+        <!-- Sơ đồ chỗ ngồi -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Sơ đồ chỗ ngồi</div>
+                <div>Vị trí và sơ đồ chỗ ngồi</div>
+            </div>
+            <div class="card-content">
+                <img src="[LINK_ANH_SO_DO]" alt="Sơ đồ chỗ ngồi">
+                <p class="text-note">Ảnh sơ đồ chỗ ngồi.</p>
+            </div>
+        </div>
+
+        <!-- Bản đồ -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Bản đồ</div>
+                <div>Vị trí tổ chức đại hội</div>
+            </div>
+            <div class="card-content">
+                <div class="map-container">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=20.952433050401943,107.10572413971774&z=16&output=embed"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <p class="text-note">Vị trí tổ chức đại hội.</p>
+            </div>
+        </div>
+
+        <footer>
+            Copyright © <span id="currentYear"></span> - Đại Hội Quawaco
+        </footer>
+    </div>
+
+    <script>
+        // Tự động cập nhật năm
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
